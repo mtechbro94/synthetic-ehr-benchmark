@@ -23,6 +23,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run smoke test (full pipeline on toy data)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           set -o pipefail
           python scripts/smoke_test.py 2>&1 | tee smoke_log.txt

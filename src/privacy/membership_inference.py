@@ -104,3 +104,7 @@ def evaluate_attack(clf, x_test: np.ndarray, y_test: np.ndarray) -> dict:
         "threshold": float(thr),
         "n_test": int(len(y_test)),
     }
+
+# Back-compat aliases: earlier revisions exported membership_inference_auc.
+membership_inference_auc = shadow_model_attack
+threshold_attack_auc = threshold_attack

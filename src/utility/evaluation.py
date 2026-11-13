@@ -86,3 +86,7 @@ def discriminative_score(real, synth):
     yh = y[len(y) // 2:]
     auc = float(roc_auc_score(yh, scores))
     return {'auc': auc, 'discriminative_distance': abs(auc - 0.5)}
+
+# Back-compat aliases: earlier revisions exported tstr_auc/trts_auc.
+tstr_auc = tstr
+trts_auc = trts

@@ -1,1 +1,109 @@
-IiIiU3ViZ3JvdXAgZmFpcm5lc3Mgc3RyZXNzIHRlc3RzIGZvciB0aGUgc3ludGhldGljLUVIUiBiZW5jaG1hcmsuCgpRdWFudGlmaWVzIGhvdyBzeW50aGV0aWMgZGF0YSBnZW5lcmF0aW9uIHJlc2hhcGVzIHByaXZhY3kgcmlzayBhbmQgdXRpbGl0eQphY3Jvc3MgZGVtb2dyYXBoaWMgc3ViZ3JvdXBzIChzZXgsIGFnZSBiYW5kcywgcmFjZSksIGFuZCB3aGV0aGVyIHRoZQpwcml2YWN5LXV0aWxpdHkgdHJhZGUtb2ZmIGlzIGVxdWl0YWJsZS4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgcGFuZGFzIGFzIHBkCgpmcm9tIHNyYy51dGlsaXR5LmV2YWx1YXRpb24gaW1wb3J0IHRzdHJfYXVjLCB0cnRzX2F1Ywpmcm9tIHNyYy5wcml2YWN5Lm1lbWJlcnNoaXAgaW1wb3J0IG1lbWJlcnNoaXBfaW5mZXJlbmNlX2F1YwoKCmRlZiBfc3ViZ3JvdXBfbWFzayhkZjogcGQuRGF0YUZyYW1lLCBzcGVjOiBkaWN0KSAtPiBucC5uZGFycmF5OgogICAgIiIiQm9vbGVhbiBtYXNrIGZvciBvbmUgc3ViZ3JvdXAgc3BlYywgZS5nLiB7J2FnZV9taW4nOiA2NX0gb3IgeydzZXgnOiAnRid9LiIiIgogICAgbWFzayA9IG5wLm9uZXMobGVuKGRmKSwgZHR5cGU9Ym9vbCkKICAgIGZvciBrZXksIHZhbHVlIGluIHNwZWMuaXRlbXMoKToKICAgICAgICBpZiBrZXkuZW5kc3dpdGgoJ19taW4nKSBhbmQga2V5WzotNF0gaW4gZGYuY29sdW1uczoKICAgICAgICAgICAgbWFzayAmPSBkZltrZXlbOi00XV0udG9fbnVtcHkoKSA+PSB2YWx1ZQogICAgICAgIGVsaWYga2V5LmVuZHN3aXRoKCdfbWF4JykgYW5kIGtleVs6LTRdIGluIGRmLmNvbHVtbnM6CiAgICAgICAgICAgIG1hc2sgJj0gZGZba2V5WzotNF1dLnRvX251bXB5KCkgPD0gdmFsdWUKICAgICAgICBlbGlmIGtleSBpbiBkZi5jb2x1bW5zOgogICAgICAgICAgICBtYXNrICY9IGRmW2tleV0udG9fbnVtcHkoKSA9PSB2YWx1ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIEtleUVycm9yKGYidW5rbm93biBzdWJncm91cCBrZXkge2tleSFyfSIpCiAgICByZXR1cm4gbWFzawoKCmRlZiBzdWJncm91cF91dGlsaXR5X2dhcCgKICAgIHJlYWxfWCwgcmVhbF95LCBzeW5fWCwgc3luX3ksCiAgICBzdWJncm91cF9zcGVjczogZGljdCwKICAgIHN1Ymdyb3VwX2xhYmVsczogcGQuRGF0YUZyYW1lIHwgTm9uZSA9IE5vbmUsCiAgICBzZWVkOiBpbnQgPSAwLAopIC0+IHBkLkRhdGFGcmFtZToKICAgICIiIlRTVFIvVFJUUyBBVUMgcGVyIHN1Ymdyb3VwIHZzLiBvdmVyYWxsLCByZXR1cm5pbmcgdGhlIGdhcCBwZXIgc3ViZ3JvdXAuCgogICAgc3ViZ3JvdXBfc3BlY3MgbWFwcyBhIHN1Ymdyb3VwIG5hbWUgKGUuZy4gJ2ZlbWFsZScsICdhZ2U+PTY1JykgdG8gaXRzIHNwZWM7CiAgICBzdWJncm91cF9sYWJlbHMgaXMgYSBEYXRhRnJhbWUgYWxpZ25lZCB3aXRoIHJlYWxfWC9zeW5fWCByb3dzIGhvbGRpbmcgdGhlCiAgICBjb2x1bW5zIHRoZSBzcGVjcyByZWZlcmVuY2UgKHNleCwgYWdlLCAuLi4pLgogICAgIiIiCiAgICBvdmVyYWxsX3RzdHIgPSB0c3RyX2F1YyhyZWFsX1gsIHJlYWxfeSwgc3luX1gsIHN5bl95LCBzZWVkPXNlZWQpCiAgICBvdmVyYWxsX3RydHMgPSB0cnRzX2F1YyhyZWFsX1gsIHJlYWxfeSwgc3luX1gsIHN5bl95LCBzZWVkPXNlZWQpCiAgICByb3dzID0gW10KICAgIGZvciBuYW1lLCBzcGVjIGluIHN1Ymdyb3VwX3NwZWNzLml0ZW1zKCk6CiAgICAgICAgbWFza19yID0gX3N1Ymdyb3VwX21hc2soc3ViZ3JvdXBfbGFiZWxzLCBzcGVjKQogICAgICAgIG1hc2tfcyA9IF9zdWJncm91cF9tYXNrKHN1Ymdyb3VwX2xhYmVscywgc3BlYykKICAgICAgICBpZiBtYXNrX3Iuc3VtKCkgPCAyMCBvciBtYXNrX3Muc3VtKCkgPCAyMDoKICAgICAgICAgICAgcm93cy5hcHBlbmQoeydzdWJncm91cCc6IG5hbWUsICduX3JlYWwnOiBpbnQobWFza19yLnN1bSgpKSwgJ25fc3luJzogaW50KG1hc2tfcy5zdW0oKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAndHN0cl9hdWMnOiBucC5uYW4sICd0cnRzX2F1Yyc6IG5wLm5hbiwgJ3RzdHJfZ2FwJzogbnAubmFuLCAndHJ0c19nYXAnOiBucC5uYW4sCiAgICAgICAgICAgICAgICAgICAgICAgICAnbm90ZSc6ICdzdWJncm91cCB0b28gc21hbGwgKDwyMCByb3dzKSd9KQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHQgPSB0c3RyX2F1YyhyZWFsX1hbbWFza19yXSwgcmVhbF95W21hc2tfcl0sIHN5bl9YW21hc2tfc10sIHN5bl95W21hc2tfc10sIHNlZWQ9c2VlZCkKICAgICAgICByID0gdHJ0c19hdWMocmVhbF9YW21hc2tfcl0sIHJlYWxfeVttYXNrX3JdLCBzeW5fWFttYXNrX3NdLCBzeW5feVttYXNrX3NdLCBzZWVkPXNlZWQpCiAgICAgICAgcm93cy5hcHBlbmQoeydzdWJncm91cCc6IG5hbWUsICduX3JlYWwnOiBpbnQobWFza19yLnN1bSgpKSwgJ25fc3luJzogaW50KG1hc2tfcy5zdW0oKSksCiAgICAgICAgICAgICAgICAgICAgICd0c3RyX2F1Yyc6IHQsICd0cnRzX2F1Yyc6IHIsCiAgICAgICAgICAgICAgICAgICAgICd0c3RyX2dhcCc6IHQgLSBvdmVyYWxsX3RzdHIsICd0cnRzX2dhcCc6IHIgLSBvdmVyYWxsX3RydHMsICdub3RlJzogJyd9KQogICAgcmV0dXJuIHBkLkRhdGFGcmFtZShyb3dzKQoKCmRlZiBzdWJncm91cF9wcml2YWN5X3Jpc2soCiAgICByZWFsX1gsIHN5bl9YLCBzdWJncm91cF9zcGVjczogZGljdCwgc3ViZ3JvdXBfbGFiZWxzOiBwZC5EYXRhRnJhbWUsIHNlZWQ6IGludCA9IDAsCikgLT4gcGQuRGF0YUZyYW1lOgogICAgIiIiTWVtYmVyc2hpcC1pbmZlcmVuY2UgQVVDIHBlciBzdWJncm91cCBvbiB0aGUgc3ludGhldGljIGRhdGEuCgogICAgQSB2YWx1ZSBuZWFyIDAuNSBtZWFucyBubyBsZWFrYWdlIGZvciB0aGF0IHN1Ymdyb3VwOyBoaWdoZXIgdmFsdWVzIG1lYW4KICAgIHRoZSBnZW5lcmF0b3IgbWVtb3Jpc2VkIHRoYXQgc3ViZ3JvdXAgZGlzcHJvcG9ydGlvbmF0ZWx5LgogICAgIiIiCiAgICByb3dzID0gW10KICAgIGZvciBuYW1lLCBzcGVjIGluIHN1Ymdyb3VwX3NwZWNzLml0ZW1zKCk6CiAgICAgICAgbWFza19yID0gX3N1Ymdyb3VwX21hc2soc3ViZ3JvdXBfbGFiZWxzLCBzcGVjKQogICAgICAgIG1hc2tfcyA9IF9zdWJncm91cF9tYXNrKHN1Ymdyb3VwX2xhYmVscywgc3BlYykKICAgICAgICBpZiBtYXNrX3Iuc3VtKCkgPCA0MCBvciBtYXNrX3Muc3VtKCkgPCA0MDoKICAgICAgICAgICAgcm93cy5hcHBlbmQoeydzdWJncm91cCc6IG5hbWUsICdtaWFfYXVjJzogbnAubmFuLCAnbm90ZSc6ICdzdWJncm91cCB0b28gc21hbGwgKDw0MCByb3dzKSd9KQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGF1YyA9IG1lbWJlcnNoaXBfaW5mZXJlbmNlX2F1YyhyZWFsX1hbbWFza19yXSwgc3luX1hbbWFza19zXSwgc2VlZD1zZWVkKQogICAgICAgIHJvd3MuYXBwZW5kKHsnc3ViZ3JvdXAnOiBuYW1lLCAnbWlhX2F1Yyc6IGF1YywgJ25vdGUnOiAnJ30pCiAgICByZXR1cm4gcGQuRGF0YUZyYW1lKHJvd3MpCgoKZGVmIHByaXZhY3lfdXRpbGl0eV90cmFkZW9mZigKICAgIHV0aWxfcmVwb3J0OiBwZC5EYXRhRnJhbWUsIHByaXZfcmVwb3J0OiBwZC5EYXRhRnJhbWUsCikgLT4gcGQuRGF0YUZyYW1lOgogICAgIiIiSm9pbiBwZXItc3ViZ3JvdXAgdXRpbGl0eSBnYXAgd2l0aCBwZXItc3ViZ3JvdXAgcHJpdmFjeSByaXNrLgoKICAgIHRyYWRlb2ZmID0gfHRzdHJfZ2FwfCArIHxtaWFfYXVjIC0gMC41fDogdGhlIGNvbWJpbmVkIGluZXF1aXR5IGEgc3ViZ3JvdXAKICAgIGNhcnJpZXMgYWNyb3NzIGJvdGggYXhlczsgbG93ZXIgaXMgYSBmYWlyZXIgZ2VuZXJhdGlvbi4KICAgICIiIgogICAgZGYgPSB1dGlsX3JlcG9ydC5tZXJnZShwcml2X3JlcG9ydCwgb249J3N1Ymdyb3VwJywgaG93PSdvdXRlcicpCiAgICBkZlsndHJhZGVvZmYnXSA9IGRmWyd0c3RyX2dhcCddLmFicygpICsgKGRmWydtaWFfYXVjJ10gLSAwLjUpLmFicygpCiAgICByZXR1cm4gZGYuc29ydF92YWx1ZXMoJ3RyYWRlb2ZmJywgYXNjZW5kaW5nPUZhbHNlKS5yZXNldF9pbmRleChkcm9wPVRydWUpCgoKZGVmIGZhaXJuZXNzX3JlcG9ydChyZWFsX1gsIHJlYWxfeSwgc3luX1gsIHN5bl95LCBzdWJncm91cF9zcGVjcywgc3ViZ3JvdXBfbGFiZWxzLCBzZWVkPTApOgogICAgIiIiRW5kLXRvLWVuZCBzdWJncm91cCBzdHJlc3MgdGVzdDogdXRpbGl0eSBnYXBzLCBwcml2YWN5IHJpc2tzLCB0cmFkZS1vZmYuIiIiCiAgICB1dGlsID0gc3ViZ3JvdXBfdXRpbGl0eV9nYXAocmVhbF9YLCByZWFsX3ksIHN5bl9YLCBzeW5feSwgc3ViZ3JvdXBfc3BlY3MsIHN1Ymdyb3VwX2xhYmVscywgc2VlZCkKICAgIHByaXYgPSBzdWJncm91cF9wcml2YWN5X3Jpc2socmVhbF9YLCBzeW5fWCwgc3ViZ3JvdXBfc3BlY3MsIHN1Ymdyb3VwX2xhYmVscywgc2VlZCkKICAgIHRyYWRlb2ZmID0gcHJpdmFjeV91dGlsaXR5X3RyYWRlb2ZmKHV0aWwsIHByaXYpCiAgICBzY29yZWQgPSB0cmFkZW9mZi5kcm9wbmEoc3Vic2V0PVsndHJhZGVvZmYnXSkKICAgIHdvcnN0ID0gc2NvcmVkLmlsb2NbMF1bJ3N1Ymdyb3VwJ10gaWYgbGVuKHNjb3JlZCkgZWxzZSBOb25lCiAgICByZXR1cm4gewogICAgICAgICd1dGlsaXR5X2dhcHMnOiB1dGlsLAogICAgICAgICdwcml2YWN5X3Jpc2tzJzogcHJpdiwKICAgICAgICAndHJhZGVvZmYnOiB0cmFkZW9mZiwKICAgICAgICAnd29yc3Rfc3ViZ3JvdXAnOiB3b3JzdCwKICAgICAgICAnbWF4X3V0aWxpdHlfZ2FwJzogZmxvYXQodXRpbFsndHN0cl9nYXAnXS5hYnMoKS5tYXgoKSkgaWYgdXRpbFsndHN0cl9nYXAnXS5ub3RuYSgpLmFueSgpIGVsc2UgbnAubmFuLAogICAgICAgICdtYXhfcHJpdmFjeV9leGNlc3MnOiBmbG9hdCgocHJpdlsnbWlhX2F1YyddIC0gMC41KS5hYnMoKS5tYXgoKSkgaWYgcHJpdlsnbWlhX2F1YyddLm5vdG5hKCkuYW55KCkgZWxzZSBucC5uYW4sCiAgICB9Cg==
+"""Subgroup fairness stress tests for the synthetic-EHR benchmark.
+
+Quantifies how synthetic data generation reshapes privacy risk and utility
+across demographic subgroups (sex, age bands, race), and whether the
+privacy-utility trade-off is equitable.
+"""
+from __future__ import annotations
+
+import numpy as np
+import pandas as pd
+
+from src.utility.evaluation import tstr_auc, trts_auc
+from src.privacy.membership import membership_inference_auc
+
+
+def _subgroup_mask(df: pd.DataFrame, spec: dict) -> np.ndarray:
+    """Boolean mask for one subgroup spec, e.g. {'age_min': 65} or {'sex': 'F'}."""
+    mask = np.ones(len(df), dtype=bool)
+    for key, value in spec.items():
+        if key.endswith('_min') and key[:-4] in df.columns:
+            mask &= df[key[:-4]].to_numpy() >= value
+        elif key.endswith('_max') and key[:-4] in df.columns:
+            mask &= df[key[:-4]].to_numpy() <= value
+        elif key in df.columns:
+            mask &= df[key].to_numpy() == value
+        else:
+            raise KeyError(f"unknown subgroup key {key!r}")
+    return mask
+
+
+def subgroup_utility_gap(
+    real_X, real_y, syn_X, syn_y,
+    subgroup_specs: dict,
+    subgroup_labels: pd.DataFrame | None = None,
+    seed: int = 0,
+) -> pd.DataFrame:
+    """TSTR/TRTS AUC per subgroup vs. overall, returning the gap per subgroup.
+
+    subgroup_specs maps a subgroup name (e.g. 'female', 'age>=65') to its spec;
+    subgroup_labels is a DataFrame aligned with real_X/syn_X rows holding the
+    columns the specs reference (sex, age, ...).
+    """
+    overall_tstr = tstr_auc(real_X, real_y, syn_X, syn_y, seed=seed)
+    overall_trts = trts_auc(real_X, real_y, syn_X, syn_y, seed=seed)
+    rows = []
+    for name, spec in subgroup_specs.items():
+        mask_r = _subgroup_mask(subgroup_labels, spec)
+        mask_s = _subgroup_mask(subgroup_labels, spec)
+        if mask_r.sum() < 20 or mask_s.sum() < 20:
+            rows.append({'subgroup': name, 'n_real': int(mask_r.sum()), 'n_syn': int(mask_s.sum()),
+                         'tstr_auc': np.nan, 'trts_auc': np.nan, 'tstr_gap': np.nan, 'trts_gap': np.nan,
+                         'note': 'subgroup too small (<20 rows)'})
+            continue
+        t = tstr_auc(real_X[mask_r], real_y[mask_r], syn_X[mask_s], syn_y[mask_s], seed=seed)
+        r = trts_auc(real_X[mask_r], real_y[mask_r], syn_X[mask_s], syn_y[mask_s], seed=seed)
+        rows.append({'subgroup': name, 'n_real': int(mask_r.sum()), 'n_syn': int(mask_s.sum()),
+                     'tstr_auc': t, 'trts_auc': r,
+                     'tstr_gap': t - overall_tstr, 'trts_gap': r - overall_trts, 'note': ''})
+    return pd.DataFrame(rows)
+
+
+def subgroup_privacy_risk(
+    real_X, syn_X, subgroup_specs: dict, subgroup_labels: pd.DataFrame, seed: int = 0,
+) -> pd.DataFrame:
+    """Membership-inference AUC per subgroup on the synthetic data.
+
+    A value near 0.5 means no leakage for that subgroup; higher values mean
+    the generator memorised that subgroup disproportionately.
+    """
+    rows = []
+    for name, spec in subgroup_specs.items():
+        mask_r = _subgroup_mask(subgroup_labels, spec)
+        mask_s = _subgroup_mask(subgroup_labels, spec)
+        if mask_r.sum() < 40 or mask_s.sum() < 40:
+            rows.append({'subgroup': name, 'mia_auc': np.nan, 'note': 'subgroup too small (<40 rows)'})
+            continue
+        auc = membership_inference_auc(real_X[mask_r], syn_X[mask_s], seed=seed)
+        rows.append({'subgroup': name, 'mia_auc': auc, 'note': ''})
+    return pd.DataFrame(rows)
+
+
+def privacy_utility_tradeoff(
+    util_report: pd.DataFrame, priv_report: pd.DataFrame,
+) -> pd.DataFrame:
+    """Join per-subgroup utility gap with per-subgroup privacy risk.
+
+    tradeoff = |tstr_gap| + |mia_auc - 0.5|: the combined inequity a subgroup
+    carries across both axes; lower is a fairer generation.
+    """
+    df = util_report.merge(priv_report, on='subgroup', how='outer')
+    df['tradeoff'] = df['tstr_gap'].abs() + (df['mia_auc'] - 0.5).abs()
+    return df.sort_values('tradeoff', ascending=False).reset_index(drop=True)
+
+
+def fairness_report(real_X, real_y, syn_X, syn_y, subgroup_specs, subgroup_labels, seed=0):
+    """End-to-end subgroup stress test: utility gaps, privacy risks, trade-off."""
+    util = subgroup_utility_gap(real_X, real_y, syn_X, syn_y, subgroup_specs, subgroup_labels, seed)
+    priv = subgroup_privacy_risk(real_X, syn_X, subgroup_specs, subgroup_labels, seed)
+    tradeoff = privacy_utility_tradeoff(util, priv)
+    scored = tradeoff.dropna(subset=['tradeoff'])
+    worst = scored.iloc[0]['subgroup'] if len(scored) else None
+    return {
+        'utility_gaps': util,
+        'privacy_risks': priv,
+        'tradeoff': tradeoff,
+        'worst_subgroup': worst,
+        'max_utility_gap': float(util['tstr_gap'].abs().max()) if util['tstr_gap'].notna().any() else np.nan,
+        'max_privacy_excess': float((priv['mia_auc'] - 0.5).abs().max()) if priv['mia_auc'].notna().any() else np.nan,
+    }

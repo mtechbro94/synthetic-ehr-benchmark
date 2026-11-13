@@ -1,1 +1,6 @@
-X19weWNhY2hlX18vCioucHlbY29kXQouZW52Ci52ZW52LwoqLmhkZjUKcmVzdWx0cy8qLmpzb24Kbm90ZWJvb2tzLy5pcHluYl9jaGVja3BvaW50cy8K
+__pycache__/
+*.py[cod]
+.env
+.venv/
+*.hdf5
+notebooks/.ipynb_checkpoints/

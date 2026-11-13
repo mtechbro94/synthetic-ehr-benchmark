@@ -1,1 +1,16 @@
-IiIiRmFpcm5lc3Mgc3RyZXNzIHRlc3RzOiBzdWJncm91cCBwcml2YWN5IGFuZCB1dGlsaXR5IGdhcHMuIiIiCmZyb20gc3JjLmZhaXJuZXNzLnN0cmVzcyBpbXBvcnQgKAogICAgc3ViZ3JvdXBfdXRpbGl0eV9nYXAsCiAgICBzdWJncm91cF9wcml2YWN5X3Jpc2ssCiAgICBwcml2YWN5X3V0aWxpdHlfdHJhZGVvZmYsCiAgICBmYWlybmVzc19yZXBvcnQsCikKZnJvbSBzcmMuZmFpcm5lc3MubWV0cmljcyBpbXBvcnQgZmFpcm5lc3Nfc3VtbWFyeQoKX19hbGxfXyA9IFsKICAgICdzdWJncm91cF91dGlsaXR5X2dhcCcsCiAgICAnc3ViZ3JvdXBfcHJpdmFjeV9yaXNrJywKICAgICdwcml2YWN5X3V0aWxpdHlfdHJhZGVvZmYnLAogICAgJ2ZhaXJuZXNzX3JlcG9ydCcsCiAgICAnZmFpcm5lc3Nfc3VtbWFyeScsCl0K
+"""Fairness stress tests: subgroup privacy and utility gaps."""
+from src.fairness.stress import (
+    subgroup_utility_gap,
+    subgroup_privacy_risk,
+    privacy_utility_tradeoff,
+    fairness_report,
+)
+from src.fairness.metrics import fairness_summary
+
+__all__ = [
+    'subgroup_utility_gap',
+    'subgroup_privacy_risk',
+    'privacy_utility_tradeoff',
+    'fairness_report',
+    'fairness_summary',
+]

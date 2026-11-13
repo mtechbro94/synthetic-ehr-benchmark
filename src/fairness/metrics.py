@@ -1,1 +1,20 @@
-IiIiQWdncmVnYXRlIGZhaXJuZXNzIG1ldHJpY3MgZm9yIHRoZSBiZW5jaG1hcmsgcmVwb3J0LiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbnVtcHkgYXMgbnAKCgpkZWYgZmFpcm5lc3Nfc3VtbWFyeShyZXBvcnQ6IGRpY3QpIC0+IGRpY3Q6CiAgICAiIiJDb21wYWN0IGhlYWRsaW5lIG51bWJlcnMgZnJvbSBmYWlybmVzc19yZXBvcnQgZm9yIHRoZSBtYXN0ZXIgcmVwb3J0LiIiIgogICAgdXRpbCA9IHJlcG9ydFsndXRpbGl0eV9nYXBzJ10KICAgIHByaXYgPSByZXBvcnRbJ3ByaXZhY3lfcmlza3MnXQogICAgZ2FwcyA9IHV0aWxbJ3RzdHJfZ2FwJ10uZHJvcG5hKCkuYWJzKCkKICAgIGV4Y2VzcyA9IChwcml2WydtaWFfYXVjJ10uZHJvcG5hKCkgLSAwLjUpLmFicygpCiAgICByZXR1cm4gewogICAgICAgICd3b3JzdF9zdWJncm91cCc6IHJlcG9ydC5nZXQoJ3dvcnN0X3N1Ymdyb3VwJyksCiAgICAgICAgJ21heF91dGlsaXR5X2dhcCc6IGZsb2F0KGdhcHMubWF4KCkpIGlmIGxlbihnYXBzKSBlbHNlIG5wLm5hbiwKICAgICAgICAnbWVhbl91dGlsaXR5X2dhcCc6IGZsb2F0KGdhcHMubWVhbigpKSBpZiBsZW4oZ2FwcykgZWxzZSBucC5uYW4sCiAgICAgICAgJ21heF9wcml2YWN5X2V4Y2Vzcyc6IGZsb2F0KGV4Y2Vzcy5tYXgoKSkgaWYgbGVuKGV4Y2VzcykgZWxzZSBucC5uYW4sCiAgICAgICAgJ21lYW5fcHJpdmFjeV9leGNlc3MnOiBmbG9hdChleGNlc3MubWVhbigpKSBpZiBsZW4oZXhjZXNzKSBlbHNlIG5wLm5hbiwKICAgICAgICAnbl9zdWJncm91cHNfc2NvcmVkJzogaW50KGxlbihyZXBvcnRbJ3RyYWRlb2ZmJ10uZHJvcG5hKHN1YnNldD1bJ3RyYWRlb2ZmJ10pKSksCiAgICB9Cg==
+"""Aggregate fairness metrics for the benchmark report."""
+from __future__ import annotations
+
+import numpy as np
+
+
+def fairness_summary(report: dict) -> dict:
+    """Compact headline numbers from fairness_report for the master report."""
+    util = report['utility_gaps']
+    priv = report['privacy_risks']
+    gaps = util['tstr_gap'].dropna().abs()
+    excess = (priv['mia_auc'].dropna() - 0.5).abs()
+    return {
+        'worst_subgroup': report.get('worst_subgroup'),
+        'max_utility_gap': float(gaps.max()) if len(gaps) else np.nan,
+        'mean_utility_gap': float(gaps.mean()) if len(gaps) else np.nan,
+        'max_privacy_excess': float(excess.max()) if len(excess) else np.nan,
+        'mean_privacy_excess': float(excess.mean()) if len(excess) else np.nan,
+        'n_subgroups_scored': int(len(report['tradeoff'].dropna(subset=['tradeoff']))),
+    }

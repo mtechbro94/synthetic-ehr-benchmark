@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 from src.utility.evaluation import tstr_auc, trts_auc
-from src.privacy.membership import membership_inference_auc
+from src.privacy.membership_inference import membership_inference_auc
 
 
 def _subgroup_mask(df: pd.DataFrame, spec: dict) -> np.ndarray:

@@ -3,8 +3,13 @@
 Import health is the hard gate. Post-import pipeline calls are wrapped so an
 evolving probe signature warns and skips instead of failing the whole run.
 """
+import os
 import sys
 import traceback
+
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if REPO_ROOT not in sys.path:
+    sys.path.insert(0, REPO_ROOT)
 
 failures = []
 
@@ -74,12 +79,25 @@ def _tstr():
     return {"tstr_acc": tt["logistic"].get("accuracy"), "trts": sorted(rr)}
 util_res = soft("tstr_trts", _tstr)
 
-soft("temporal_report", lambda: temporal_report(real3d, synth3d))
-soft("fairness_report", lambda: fairness_report(
-    {"features": real3d, "gender": rng.integers(0, 2, 60)},
-    {"features": synth3d, "gender": rng.integers(0, 2, 60)},
-    subgroup="gender",
-))
+# Temporal: dictionary of stay_id -> DataFrame of longitudinal vital signals
+def _temporal():
+    cols = ["heart_rate", "sbp", "dbp", "resp_rate", "spo2"]
+    real_dict = {i: pd.DataFrame(rng.normal(size=(24, len(cols))), columns=cols) for i in range(10)}
+    syn_dict = {i: pd.DataFrame(rng.normal(size=(24, len(cols))), columns=cols) for i in range(10)}
+    rep = temporal_report(real_dict, syn_dict)
+    assert "temporal_score" in rep
+    return rep
+temp_res = soft("temporal_report", _temporal)
+
+# Fairness: subgroup utility gaps and privacy risk trade-off across demographic cohorts
+def _fairness():
+    N = 80
+    Xr = rng.normal(size=(N, 5)); yr = rng.integers(0, 2, N)
+    Xs = rng.normal(size=(N, 5)); ys = rng.integers(0, 2, N)
+    labels = pd.DataFrame({"sex": rng.integers(0, 2, N)})
+    specs = {"female": {"sex": 0}, "male": {"sex": 1}}
+    return fairness_report(Xr, yr, Xs, ys, specs, labels)
+fair_res = soft("fairness_report", _fairness)
 
 print("Metrics summary:", {"mia_keys": mia_keys, "attr_gender": attr_res, "utility": util_res})
 if failures:

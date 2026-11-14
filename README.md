@@ -1,6 +1,7 @@
 # Privacy-Utility-Fairness Stress Testing for Longitudinal Synthetic EHR and ICU Waveforms
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtechbro94/synthetic-ehr-benchmark/blob/main/notebooks/Synthetic_EHR_Benchmark_Walkthrough.ipynb)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#interactive-streamlit-web-dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Smoke Test](https://github.com/mtechbro94/synthetic-ehr-benchmark/actions/workflows/smoke_test.yml/badge.svg)](https://github.com/mtechbro94/synthetic-ehr-benchmark/actions)
@@ -64,6 +65,14 @@ Run the complete pipeline end-to-end on synthetic ICU cohorts:
 
 ```bash
 python scripts/smoke_test.py
+```
+
+### 4. Launch Interactive Streamlit Clinical Auditor
+
+Launch the interactive local web dashboard with live metric exploration, transition heatmaps, and subgroup auditing:
+
+```bash
+streamlit run app.py
 ```
 
 The smoke test exercises:
@@ -215,6 +224,7 @@ synthetic-ehr-benchmark/
 │   │   ├── stress.py
 │   │   └── metrics.py
 │   └── generators/                 # Synthetic generator adapters & interfaces
+├── app.py                          # Interactive Streamlit Clinical Auditor web dashboard
 ├── requirements.txt                # Core benchmark dependencies
 ├── README.md                       # Documentation & API usage guide
 └── LICENSE                         # MIT License

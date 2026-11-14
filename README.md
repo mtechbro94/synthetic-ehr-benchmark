@@ -1,8 +1,11 @@
 # Privacy-Utility-Fairness Stress Testing for Longitudinal Synthetic EHR and ICU Waveforms
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtechbro94/synthetic-ehr-benchmark/blob/main/notebooks/Synthetic_EHR_Benchmark_Walkthrough.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Smoke Test](https://github.com/mtechbro94/synthetic-ehr-benchmark/actions/workflows/smoke_test.yml/badge.svg)](https://github.com/mtechbro94/synthetic-ehr-benchmark/actions)
+[![Paper Manuscript](https://img.shields.io/badge/Paper-IEEE%20JBHI%20%2F%20JAMIA-purple.svg)](docs/paper.md)
+[![Overleaf Package](https://img.shields.io/badge/LaTeX-Overleaf%20Package-teal.svg)](paper_latex/)
 [![Privacy Attacks](https://img.shields.io/badge/Privacy-Membership%20%2B%20Attribute%20Inference-orange.svg)](#privacy-stress-testing)
 [![Utility Metric](https://img.shields.io/badge/Utility-TSTR%20%2F%20TRTS-green.svg)](#clinical-utility-evaluation)
 [![Dataset](https://img.shields.io/badge/Cohort-MIMIC--IV-informational.svg)](https://physionet.org/content/mimiciv/)
@@ -49,7 +52,13 @@ cd synthetic-ehr-benchmark
 pip install -r requirements.txt
 ```
 
-### 2. Run CI Smoke Test
+### 2. 1-Click Interactive Google Colab Walkthrough
+
+Run the full interactive benchmark tutorial directly in your browser with pre-rendered visualization plots:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtechbro94/synthetic-ehr-benchmark/blob/main/notebooks/Synthetic_EHR_Benchmark_Walkthrough.ipynb)
+
+### 3. Run CI Smoke Test Locally
 
 Run the complete pipeline end-to-end on synthetic ICU cohorts:
 
@@ -176,7 +185,16 @@ synthetic-ehr-benchmark/
 ├── .github/
 │   └── workflows/
 │       └── smoke_test.yml          # Automated CI pipeline
+├── docs/
+│   └── paper.md                    # Full Q1 journal research manuscript
+├── notebooks/
+│   └── Synthetic_EHR_Benchmark_Walkthrough.ipynb  # 1-Click interactive Colab notebook
+├── paper_latex/                    # Standalone Overleaf / LaTeX publication package
+│   ├── main.tex                    # IEEEtran two-column journal manuscript
+│   ├── references.bib              # Complete BibTeX bibliography
+│   └── IEEEtran.cls                # Official IEEE class file
 ├── scripts/
+│   ├── build_notebook.py           # Notebook compilation script
 │   └── smoke_test.py               # End-to-end toy pipeline validation
 ├── src/
 │   ├── data/                       # MIMIC-IV loaders & cohort construction

@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 *.hdf5
 notebooks/.ipynb_checkpoints/
+*.zip
